@@ -1,0 +1,19 @@
+{
+    "name": "serff/dhlparcel",
+    "description": "Dhl Parcel Library",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "jorritvanvrouwerff",
+            "email": "info@serff.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Serff\\Dhlparcel\\": "src"
+        }
+    }
+}
